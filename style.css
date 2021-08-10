@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+body{
+    background-color: #ccc;
+
+}
+h1{
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    margin: 20px;
+    padding: 10px;
+    font-size: 40px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style: italic;
+    
+}
+.cal-screen{
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+.cal-screen> #read{
+    color: #000;
+}
+.clear{
+    text-align: center;
+    
+}
+.clear > input{
+    font-size: 25px;
+    padding: 2px;
+    color: red;
+    width: 135px;
+}
+.clear #per{
+    color: green;
+}
+
+.cal-form{
+    background-color: #ccc;
+    border-radius: 20px;
+   
+   
+}
+.row-1{
+    text-align: center;
+}
+.row-1> input{
+    font-size: 25px;
+    padding: 2px;
+    color: black;
+    width: 100px;
+}
+.row-2{
+    text-align: center;
+}
+.row-2> input{
+    font-size: 25px;
+    padding: 2px;
+    color: blue;
+    width: 100px;
+}
+.row-3{
+    text-align: center;
+}
+.row-3> input{
+    font-size: 25px;
+    padding: 2px;
+    color: black;
+    width: 100px;
+}
+.row-4{
+    
+    text-align: center;
+}
+.row-4> input{
+    font-size: 25px;
+    padding: 2px;
+    color: blue;
+    width: 100px;
+}
+
+.row-4  #garden{
+color: green;
+}
+
+#read{
+    margin-top: 10px;
+    padding-right: 10px;
+    text-align: right;
+    font-weight: 500;
+    font-style: italic;
+    color: #000;
+
+}
+.inner{
+    border: 1px solid green;
+ 
+    
+}
